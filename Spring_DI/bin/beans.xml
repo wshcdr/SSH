@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+    <bean id = "personDao" class="com.dao.impl.PersonDaoBean"></bean>
+	<bean id="personService" class="com.service.impl.PersonServiceBean">
+	<constructor-arg index = "0" type = "com.dao_x.PersonDao" ref = "personDao"></constructor-arg>
+	<constructor-arg index = "1" value = "hiCamp"></constructor-arg>	
+		<!-- 
+		<property name="personDao">
+		
+		<bean class="com.dao.impl.PersonDaoBean"></bean>-->
+		
+		<!-- 采用内部bean的方式实现注入 -->
+		<!-- </property> -->
+		
+		<!-- 依赖注入,实现的底层原理是反射技术 -->
+		<!-- <property name = "name" value = "PersonServiceBean"></property> -->
+		<!-- 基本类型的注入，setter和getter方法是必要的 -->
+		<!-- 
+		<property name = "list">
+		<list>
+		<value>matrix</value>
+		<value>lhxz</value>
+		</list>
+		</property>
+		-->
+		<!-- 实现集合类型的注入：Map,List,Set,Properties等 -->
+    </bean>
+ </beans>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+          "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<!-- dialect指定数据库使用的方言 -->
+		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+		<!-- connection.dirver_class指定数据库的驱动程序 -->
+		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		<!-- connection.url指定连接数据库的URL -->
+		<property name="connection.url">jdbc:mysql://localhost:3306/crud</property>
+		<!-- connection.username指定连接数据库的用户名 -->
+		<property name="connection.username">root</property>
+		<!-- connection.password指定连接数据库的密码 -->
+		<property name="connection.password">root</property>
+		<!-- show_sql指定是否打印SQL语句 -->
+		<property name="show_sql">true</property>
+		
+		<!-- 指定POJO的映射文件 -->
+		<mapping resource="org/njy/bean/Student.hbm.xml" />
+	</session-factory>
+</hibernate-configuration>

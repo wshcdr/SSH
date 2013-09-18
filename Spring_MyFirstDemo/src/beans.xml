@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+          <bean id="personService" class="com.service.impl.PersonServiceBean" lazy-init = "false"
+          init-method = "init" destroy-method = "destroy"
+          ></bean>
+          <!-- init-method = "init" 实例化后，执行的方法 -->
+          <!-- lazy-init = "true"  延迟初始化，在创建Spring容器的时候不实例化，在调用GetBean()时候实例化 -->
+          <bean id = "personService2" class = "com.service.impl.PersonServiceBeanFactory"
+          factory-method = "createPersonServiceBean"></bean>
+          <bean id = "personServiceFactory" class = "com.service.impl.PersonServiceBeanFactoryDynamic"></bean>
+          <bean id = "personService3" factory-bean = "personServiceFactory" factory-method = "createPersonServiceBean" scope = "prototype"></bean>
+          <!--static factory method and instance factory method  -->
+</beans>

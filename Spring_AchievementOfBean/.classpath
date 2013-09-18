@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="D:/SSH/spring2.5.6/commons-logging.jar"/>
+	<classpathentry kind="lib" path="D:/SSH/spring2.5.6/spring.jar"/>
+	<classpathentry kind="lib" path="D:/SSH/dom4j-1.6.1/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/SSH/dom4j-1.6.1/jaxen-1.1-beta-6.jar"/>
+	<classpathentry kind="lib" path="D:/SSH/dom4j-1.6.1/jaxme-api-0.3.jar"/>
+	<classpathentry kind="lib" path="D:/SSH/dom4j-1.6.1/jsr173_1.0_api.jar"/>
+	<classpathentry kind="lib" path="D:/SSH/dom4j-1.6.1/msv-20030807.jar"/>
+	<classpathentry kind="lib" path="D:/SSH/dom4j-1.6.1/pull-parser-2.1.10.jar"/>
+	<classpathentry kind="lib" path="D:/SSH/dom4j-1.6.1/relaxngDatatype-20030807.jar"/>
+	<classpathentry kind="lib" path="D:/SSH/dom4j-1.6.1/xml-apis-2.0.2.jar"/>
+	<classpathentry kind="lib" path="D:/SSH/dom4j-1.6.1/xpp3-1.1.3.3.jar"/>
+	<classpathentry kind="lib" path="D:/SSH/dom4j-1.6.1/xsdlib-20030807.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

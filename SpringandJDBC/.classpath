@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="D:/SSH/spring2.5.6/spring.jar"/>
+	<classpathentry kind="lib" path="D:/SSH/spring2.5.6/commons-logging.jar"/>
+	<classpathentry kind="lib" path="D:/SSH/spring2.5.6/aspectjrt.jar"/>
+	<classpathentry kind="lib" path="D:/SSH/spring2.5.6/aspectjweaver.jar"/>
+	<classpathentry kind="lib" path="D:/SSH/spring2.5.6/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="D:/SSH/spring2.5.6/common-annotations.jar"/>
+	<classpathentry kind="lib" path="D:/SSH/spring2.5.6/commons-dbcp.jar"/>
+	<classpathentry kind="lib" path="D:/SSH/spring2.5.6/commons-pool.jar"/>
+	<classpathentry kind="lib" path="D:/SSH/spring2.5.6/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="D:/SSH/spring2.5.6/spring-webmvc-struts.jar"/>
+	<classpathentry kind="lib" path="D:/SSH/mysql-connector-java-5.1.22-bin.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
